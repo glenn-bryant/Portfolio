@@ -1,7 +1,75 @@
-<div class="container mt-3">
-  <div class="row justify-content-center">
-    <div class="col">
-      <h1>Middleman Boilerplate</h1>
+<body>
+  <div class = "container">
+    <%= image_tag "profile_pic.jpg", class: "avatar-large" %>
+    <h1>Glenn Oliver Bryant Jr.</h1>
+    <h2>Full Stack Web Developer Extraodinaire</h2>
+
+    <!-- About Section -->
+    <div class="wrapper-white">
+      <div class="row">
+        <div class="col-12">
+          <h1>Welcome</h1>
+          <p>I have been in love with Japanese pop culture since I was a kid, so I made my dreams of living in Japan come true and movedhere in 2013. I have recently fulfilled my newfound goal of being a fullstack web developer, and am currently based in Osaka, Japan.</p>
+        </div>
+      </div>
     </div>
+    <!-- projects -->
+    <div class="wrapper-white">
+      <div class="row">
+        <div class="col-12">
+          <div class="main-container", id="projects">
+            <h1>Projects</h1>
+            <h2>Here are some projects I have recently worked on:</h2>
+          </div>
+          <div class="cards">
+            <% link_to "https://github.com/glenn-bryant/Clinic-API", class: "card-link", style: "text-decoration: none" do %>
+              <div class="card-trip">
+                <%= image_tag "clinic_api.jpg" %>
+                <div class="card-trip-infos">
+                  <div>
+                    <h2>Clinic API</h2>
+                    <p>A list of English-speaking Tokyo Clinics as JSON</p>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+            <% link_to "https://www.lvl-up.life/", class: "card-link", style: "text-decoration: none" do %>
+              <div class="card-trip">
+                <%= image_tag "level_up.jpg" %>
+                <div class="card-trip-infos">
+                  <div>
+                    <h2>Level Up</h2>
+                    <p>A web app that helps visualize skill progress</p>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+            <% link_to "https://renterpreter.herokuapp.com/", class: "card-link", style: "text-decoration: none" do %>
+              <div class="card-trip">
+                <%= image_tag "renterpreter.jpg" %>
+                <div class="card-trip-infos">
+                  <div>
+                    <h2>Renterpreter</h2>
+                    <p>An air-bnb clone to find translators</p>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+            <% link_to "https://stark-gorge-00636.herokuapp.com/cocktails", class: "card-link", style: "text-decoration: none" do %>
+              <div class="card-trip">
+                <%= image_tag "velvet_room.jpg" %>
+                <div class="card-trip-infos">
+                  <div>
+                    <h2>The Velvet Room</h2>
+                    <p>A database of cocktail recipes</p>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-</div>
+</body>

@@ -2,3 +2,48 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+@import "card_description";
+@import "card-trip";
+@import "card";
+@import "grid";
+
+
+html {
+  height: auto;
+  width: auto;
+}
+
+body {
+  background-image: linear-gradient( #154BB4, #C4C5DB);
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "roboto";
+  padding: 18vh 1rem;
+  text-align: center;
+}
+
+.welcome {
+  text-align: center;
+  background-color: white;
+  color: black;
+  
+}
+
+.wrapper-white {
+  background-color: white;
+  border-radius: 5px;
+  color: #000;
+  margin: 8px;
+}
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}

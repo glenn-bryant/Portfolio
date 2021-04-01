@@ -1,0 +1,14 @@
+.card-description {
+  background-color: white;
+  padding: 24px;
+  margin-top: -24px;
+  position: absolute;
+  bottom: -108px;
+  width: 85%;
+  border-radius: 5px;
+  height: 154px;
+  display: flex;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  flex-direction: column;
+  justify-content: space-between;
+}
