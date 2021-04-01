@@ -22,7 +22,7 @@
             <h2>Here are some projects I have recently worked on:</h2>
           </div>
           <div class="cards">
-            <% link_to "https://github.com/glenn-bryant/Clinic-API", class: "card-link", style: "text-decoration: none" do %>
+            <% link_to "https://github.com/glenn-bryant/Clinic-API", class: "card-link m-0", style: "text-decoration: none" do %>
               <div class="card-trip">
                 <%= image_tag "clinic_api.jpg" %>
                 <div class="card-trip-infos">
@@ -33,7 +33,7 @@
                 </div>
               </div>
             <% end %>
-            <% link_to "https://www.lvl-up.life/", class: "card-link", style: "text-decoration: none" do %>
+            <% link_to "https://www.lvl-up.life/", class: "card-link m-0", style: "text-decoration: none" do %>
               <div class="card-trip">
                 <%= image_tag "level_up.jpg" %>
                 <div class="card-trip-infos">
@@ -44,7 +44,7 @@
                 </div>
               </div>
             <% end %>
-            <% link_to "https://renterpreter.herokuapp.com/", class: "card-link", style: "text-decoration: none" do %>
+            <% link_to "https://renterpreter.herokuapp.com/", class: "card-link m-0", style: "text-decoration: none" do %>
               <div class="card-trip">
                 <%= image_tag "renterpreter.jpg" %>
                 <div class="card-trip-infos">
@@ -55,7 +55,7 @@
                 </div>
               </div>
             <% end %>
-            <% link_to "https://stark-gorge-00636.herokuapp.com/cocktails", class: "card-link", style: "text-decoration: none" do %>
+            <% link_to "https://stark-gorge-00636.herokuapp.com/cocktails", class: "card-link m-0", style: "text-decoration: none" do %>
               <div class="card-trip">
                 <%= image_tag "velvet_room.jpg" %>
                 <div class="card-trip-infos">
@@ -70,11 +70,12 @@
         </div>
       </div>
     </div>
+    <!-- Contact -->
     <div class="wrapper-white">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12", style="padding:16px">
           <h1>You can reach me at:</h1>
-          <div class="contact">
+          <div class="contact", style = "display:flex; justify-content:space-around; margin:auto; width:50%; margin-top:16px">
             <a href = "mailto:glennbryant3@gmail.com">
             <i class="fas fa-envelope", style= "font-size:28px"></i></a>
             <a href = "https://github.com/glenn-bryant">
